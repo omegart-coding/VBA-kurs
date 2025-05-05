@@ -15,15 +15,15 @@
 >
 >Dette kan gjøres når du lagrer en fil
 >
->![Alt text](./images/save_as_xlsm.png "Choose Save As and choose Excel Macro-Enabled Workbook (.xlsm)")
+>![Alt text](./.images/save_as_xlsm.png "Choose Save As and choose Excel Macro-Enabled Workbook (.xlsm)")
 >
 >Når du åpner en Xlsm-fil, pass på at Macros er på
 >
->![Alt text](./images/macros_img.png "Make sure you press 'Enable Macros'")
+>![Alt text](./.images/macros_img.png "Make sure you press 'Enable Macros'")
 
 > Excel -> Preferences
 >
->![Alt text](./images/excel_preferences.png "Choose the Excel tab, then click onto Preferences")
+>![Alt text](./.images/excel_preferences.png "Choose the Excel tab, then click onto Preferences")
 >
 > ELLER '⌘' + ' , '
 
@@ -31,23 +31,23 @@
 
 > Velg *Ribbon & Toolbar*
 >
->![Alt text](./images/preferences_ribbon.png "Click on Ribbon and Toolbar")
+>![Alt text](./.images/preferences_ribbon.png "Click on Ribbon and Toolbar")
 
 <br>
 
 > Bla ned til Developer og skru den på
 >
->![Alt text](./images/ribbon_developer.png "Find and click on the Developer option")
+>![Alt text](./.images/ribbon_developer.png "Find and click on the Developer option")
 >
 > **HUSK Å LAGRE!**
 
 >Åpne Visual Basic på Developer-tabben
 >
->![Alt text](./images/developer_vba.png "Click the developer tab and click on Visual Basic")
+>![Alt text](./.images/developer_vba.png "Click the developer tab and click on Visual Basic")
 >
 >Velg riktig fil og sett inn en modul
 >
->![Alt text](./images/vba_new_module.png "Choose the desired Excel file, right click and choose insert, and file Module")
+>![Alt text](./.images/vba_new_module.png "Choose the desired Excel file, right click and choose insert, and file Module")
 >
 >Gi modulen et passende navn
 
@@ -65,7 +65,7 @@
 >
 >Man kan også bruke subs, som kjører automatisk istedet for å bli fremkalt
 >
->![Alt text](./images/function_&_subs.png "Example of how to set up both a function and a sub in Excel VBA")
+>![Alt text](./.images/function_&_subs.png "Example of how to set up both a function and a sub in Excel VBA")
 
 ## Viktige datatyper
 |Name of datatype | Meaning of datatype |
@@ -88,7 +88,7 @@
 >
 >Måten man definerer verdien på en string er også slik man endrer verdien 
 >
->![Alt text](./images/variabel_eksempel.png "Eksempel til variabel")
+>![Alt text](./.images/variabel_eksempel.png "Eksempel til variabel")
 
 ## Celler
 >Et område er beskrevet under Range-variabelen
@@ -99,7 +99,7 @@
 >
 >Innholdet til en celle får man ved å legge til .Value på slutten
 >
->![Alt text](./images/celle_info_eksempel.png "Eksempel til celler")
+>![Alt text](./.images/celle_info_eksempel.png "Eksempel til celler")
 
 ## Rader og kolonner
 >Ved å legge til enten Rows eller Columns etter en range-variabel kan du spefisere om den bare skal se på rader eller kolonner
@@ -118,7 +118,7 @@
 >>
 >>Next i *(Øker i med en)*
 >
->![Alt text](./images/for_eksempel.png "Eksempel til for-løkke")
+>![Alt text](./.images/for_eksempel.png "Eksempel til for-løkke")
 
 ## Lister
 >En liste er definert som en vanlig variabel, men med paranteser med antall "plasser" etter navnet på variabelen, f.eks. "Dim numbers(1 to 3) as Integer"
@@ -127,7 +127,7 @@
 >
 >For å få lengden til en liste må du skrive "UBound(*navn på liste*) - LBound(*navn på liste*) + 1"
 >
->![Alt text](./images/liste_eksempel.png "Eksempel for liste")
+>![Alt text](./.images/liste_eksempel.png "Eksempel for liste")
 
 
 
@@ -143,7 +143,7 @@
 >
 >Ved å legge til "Not" etter if vil det returneres hvis spørringen ikke stemmer
 >
->![Alt text](./images/if_eksempel.png "Eksempel for if-setning")
+>![Alt text](./.images/if_eksempel.png "Eksempel for if-setning")
 
 ## Hindre feil
 >For å hindre at lister eller celler er tomme kan du skrive "IsEmpty()" for å se om det er null
