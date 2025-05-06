@@ -73,16 +73,16 @@ Man kan også bruke subs, som kjører automatisk istedet for å bli fremkalt
 ![Alt text](./.images/function_&_subs.png "Example of how to set up both a function and a sub in Excel VBA")
 
 ## Viktige datatyper
-```
-|Name of datatype | Meaning of datatype |
-|-----------------|---------------------|
-|Variant | User-defined data type, flexible but inaccurate
-|Range | For functions and objects only, an set of cells on the sheet
-|Integer | Set of positive and negative numbers without decimals 
-|String | Set of characters
-|Double | Sets of two floats
-|Boolean | True or False
-```
+
+| Name of datatype | Meaning of datatype |
+| ---------------- | ------------------- |
+| Variant | User-defined data type, flexible but inaccurate |
+| Range | For functions and objects only, an set of cells on the sheet |
+| Integer | Set of positive and negative numbers without decimals |
+| String | Set of characters |
+| Double | Sets of two floats |
+| Boolean | True or False |
+
 
 ## Variabler
 Variabler defineres på denne måten:
